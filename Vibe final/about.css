@@ -1,0 +1,94 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,  #4a90e2, #ffcc00);
+    color: #333;
+}
+
+header {
+    background-color:  #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    width: 80%;
+    max-width: 800px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color:  #4a90e2;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+footer {
+    background-color:  #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
